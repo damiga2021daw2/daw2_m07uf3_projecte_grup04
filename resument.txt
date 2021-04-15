@@ -1,0 +1,19 @@
+ONGs:
+	Modelo:	ong
+	BD:	ongs
+
+Usuaris:
+	Modelo: Usuari
+	BD:	usuaris
+
+Soci:
+	Modelo: Soci
+	BD:	socis
+
+Voluntari:
+	Modelo: Voluntari
+	BD:     voluntaris
+
+Professional:
+	Model: 	Professional
+	BD:	professionals
