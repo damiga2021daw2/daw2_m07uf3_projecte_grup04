@@ -33,6 +33,10 @@
                     </div>
                 </nav>
             </div>
+            <!--<img style="display: block; position: relative; width: 15%; left: 600px; bottom: 360px;" src="{{URL('images/logoGONG.png')}}" width="280" height="105" title="Logo" alt="Logo">-->
+            <div class="container-fluid">
+                <img src="{{URL('images/logoGONG.png')}}" width="175px" style="position: relative; left: 70%;" title="Logo" alt="Logo">
+            </div>
         </nav>
         <div class="centrar">
             <table>

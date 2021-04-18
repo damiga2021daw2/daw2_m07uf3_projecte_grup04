@@ -8,23 +8,27 @@
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
    </head>
    <body>
-         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <nav id="polla" class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="/home"><h1>Home</h1></a>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="/"><h3>Logout</h3></a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-         </nav>
-      <div style="position: relative; right: 40px;" class="container">
-         @yield('content')
-      </div>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="/home"><h1>Home</h1></a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/"><h3>Logout</h3></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+            <!--<img style="display: block; position: relative; width: 15%; left: 600px; bottom: 360px;" src="{{URL('images/logoGONG.png')}}" width="280" height="105" title="Logo" alt="Logo">-->
+        <div class="container-fluid">
+            <img src="{{URL('images/logoGONG.png')}}" width="175px" style="position: relative; left: 70%;" title="Logo" alt="Logo">
+        </div>
+    </nav>
+    <div style="position: relative; right: 40px;" class="container">
+        @yield('content')
+    </div>
 
       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" type="text/js"></script>
