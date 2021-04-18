@@ -3,8 +3,9 @@
 3. Executar el script2.sql
 
 
-Taules:
+Informació adicional:
 
+taules:
 ONGs:
 	Modelo:	ong
 	BD:	ongs
